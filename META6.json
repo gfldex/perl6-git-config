@@ -4,5 +4,5 @@
     "description" : "Read and provide interface to git config.",
     "author" : "Wenzel P. P. Peppmeyer",
     "depends" : [ ],
-    "source-url" : "git://github.com/gfldex/.git"
+    "source-url" : "git://github.com/gfldex/perl6-git-config.git"
 }
