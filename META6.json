@@ -6,5 +6,5 @@
     "authors"      : [ "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>" ],
     "auth"         : "github:gfldex",
     "depends"      : [ ],
-    "source-url"   : "https://github.com/gfldex/perl6-git-config"
+    "source-url"   : "https://github.com/gfldex/perl6-git-config.git"
 }
