@@ -13,7 +13,7 @@ grammar Config is export {
 sub git-config(IO::Path $file? --> Hash) is export {
     my %ret;
 
-    my @fs = $file.Str // ($*HOME «~« </.gitconfig /.config/git/config>);
+    my @fs = $file // ($*HOME «~« </.gitconfig /.config/git/config>);
     my $cfg-handle = ([//] try (@fs».IO».open)) // warn("Can not find gitconfig at any of {('⟨' «~« @fs »~» '⟩').join(', ')}");
     my $cfg-text = $cfg-handle.slurp;
 
