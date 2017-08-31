@@ -1,8 +1,15 @@
+
+
+# comments before anything
+
+
+
 [user]
     name = Hans H. Hansen
 
     email = hans@hansen.net
     signingKey = E2AEB3D93FB3940B844C9E08A68DF012C3881D62
+    # signingKey = something else
 
 [remote "origin"]
     url = https://github.com/perl6/ecosystem.git
@@ -21,3 +28,4 @@ xfuncname = "^[\t ]*((method|sub|class)[\t ]+.*)$"
 [alias]
     log-merge = !git log $(git merge-base --octopus $(git log -1 --merges --pretty=format:%P $1))..$1 --graph --pretty=oneline --abbrev-commit --boundary
 
+# comments after
