@@ -28,7 +28,7 @@ sub git-config(IO::Path $file? --> Hash) is export {
         })
     }
 
-    my $cfg-file-path = $cfg-handle.path;
+    my $cfg-file-path = $cfg-handle.IO;
 
     %ret but role :: {
         method search-path { @fs }
