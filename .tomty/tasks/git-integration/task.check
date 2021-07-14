@@ -1,0 +1,10 @@
+begin:
+  ===
+  remote-repo: [https://github.com/gfldex/perl6-git-config.git]
+  remote-repo2: [https://github.com/gfldex/perl6-git-config.git]
+  user.name: [John Doe\\]
+  core.filemode: [true]
+  proxy-command for example.com
+  proxy-command2 for example2.com
+  ===
+end:
